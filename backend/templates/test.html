@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="myDiv" class="card" >
+    <form action="/updateData" method="get" >
+      <h2> <i class="glyphicon glyphicon-bullhorn" style="color:burlywood;"></i>&nbsp;新的發現 </h2>
+
+      <i class="glyphicon glyphicon-eye-close"></i> &nbsp; 
+      <label for="china" >中國用語</label>
+      <input id="china" name="china" type="text"><br>
+
+      <i class="glyphicon glyphicon-check"></i> &nbsp; 
+      <label for="tw">台灣用語</label>
+      <input id="tw" name="tw" type="text"><br>
+
+      <i class="glyphicon glyphicon-screenshot"></i> &nbsp; 
+      <label for="us">英文用詞</label>
+      <input id="us" name="us" type="text"><br>
+
+      <button>送出</button>
+    </form>
+  </div>
+</body>
+</html>

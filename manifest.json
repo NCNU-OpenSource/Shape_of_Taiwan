@@ -16,12 +16,14 @@
         "http://*/*",
         "https://*/*"
       ],
-      "css": ["static/css/style.css"]
+      "css": ["static/css/style.css"],
+      "html": ["feedback"]
     }
   ],
   "background": {
     "scripts": [
-      "background.js"
+      "background.js",
+      "feedback.js"
     ],
     "persistent": true
   },

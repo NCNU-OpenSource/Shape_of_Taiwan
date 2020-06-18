@@ -34,20 +34,3 @@ chrome.browserAction.onClicked.addListener(function (tab) {
     chrome.browserAction.setTitle({ title: "Shape of Taiwan : Disabled" });
   }
 });
-
-chrome.contextMenus.create({
-  "id": "newfeedback",
-  "title": "新增回饋 %s",
-  "contexts": ["all"],
-  "onclick": function() {
-    getword(["all"]);
-  }
-});
-
-function getword(info) {
-  chrome.tabs.create({
-    // url: "https://lost.moli.rocks/feedback",
-    url: "backend/templates/test.html",
-
-  });
-}

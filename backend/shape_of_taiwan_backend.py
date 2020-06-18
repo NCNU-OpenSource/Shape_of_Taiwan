@@ -4,7 +4,7 @@ from flask import jsonify, request, render_template
 import json
 # jieba
 import jieba
-jieba.set_dictionary('../static/file/dict.txt.big')
+jieba.set_dictionary('./static/dict.txt.big')
 # import jieba_tw
 import json
 
@@ -19,8 +19,8 @@ logger = logging.getLogger()
 def getData() :
     def get_result_json(): # private, 傳進網頁內容，return 比對到 網頁 與 key 的
         # 資料準備
-        content = open('../static/file/web_content_demo.txt', 'r', encoding='utf8').read() # request - web content
-        ch_dict_file = open('../static/file/data.json','r',encoding='utf8') # zh_CH.json
+        content = open('./static/web_content_demo.txt', 'r', encoding='utf8').read() # request - web content
+        ch_dict_file = open('./static/data.json','r',encoding='utf8') # zh_CH.json
         ch_json_array = json.load(ch_dict_file)
 
         # 切分收到內容
@@ -33,9 +33,9 @@ def getData() :
             except KeyError:
                 continue
 
-        with open('../static/file/result_data.json', 'w', encoding='UTF-8') as f:
+        with open('./static/result_data.json', 'w', encoding='UTF-8') as f:
             f.write(str(json.dumps(result_json, ensure_ascii=False)))
-        with open('../static/file/result_data.json', 'r', encoding='UTF-8') as f:
+        with open('./static/result_data.json', 'r', encoding='UTF-8') as f:
             return jsonify(json.load(f))
 
     return get_result_json()

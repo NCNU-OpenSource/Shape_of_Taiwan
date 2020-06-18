@@ -1,0 +1,326 @@
+{
+  "內存" : {
+    "zh_TW": "記憶體",
+    "en_US": "RAM"
+  },
+  "報文" : {
+    "zh_TW": "封包",
+    "en_US": "Packet"
+  },
+  "端口" : {
+    "zh_TW": "埠",
+    "en_US": "Port"
+  },
+  "帶寬" : {
+    "zh_TW": "頻寬",
+    "en_US": "Bandwidth"
+  },
+  "默認" : {
+    "zh_TW": "預設",
+    "en_US": "Default"
+  },
+  "用戶" : {
+    "zh_TW": "使用者",
+    "en_US": "user"
+  },
+  "優化" : {
+    "zh_TW": "最佳化",
+    "en_US": "Optimize"
+  },
+  "互聯網" : {
+    "zh_TW": "網際網路",
+    "en_US": "Internet"
+  },
+  "網絡" : {
+    "zh_TW": "網路",
+    "en_US": "Network"
+  },
+  "屏幕" : {
+    "zh_TW": "螢幕",
+    "en_US": "Monitor"
+  },
+  "硬盤" : {
+    "zh_TW": "硬碟",
+    "en_US": "Hard Drive Disk"
+  },
+  "程序" : {
+    "zh_TW": "程式",
+    "en_US": "Program"
+  },
+  "程序員" : {
+    "zh_TW": "工程師",
+    "en_US": "Programmer"
+  },
+  "代碼" : {
+    "zh_TW": "程式碼",
+    "en_US": "Code"
+  },
+  "編程" : {
+    "zh_TW": "寫程式",
+    "en_US": "Coding"
+  },
+  "數據庫" : {
+    "zh_TW": "資料庫",
+    "en_US": "Database"
+  },
+  "卸載" : {
+    "zh_TW": "移除",
+    "en_US": "Uninstall"
+  },
+  "短信" : {
+    "zh_TW": "簡訊",
+    "en_US": "Message"
+  },
+  "計算機" : {
+    "zh_TW": "電腦",
+    "en_US": "Computer"
+  },
+  "掉線" : {
+    "zh_TW": "斷線",
+    "en_US": "Drop"
+  },
+  "台式機" : {
+    "zh_TW": "桌上型電腦",
+    "en_US": "Desktop PC"
+  },
+  "局域網" : {
+    "zh_TW": "區域網路",
+    "en_US": "LAN"
+  },
+  "內核" : {
+    "zh_TW": "核心",
+    "en_US": "Kernel"
+  },
+  "在線" : {
+    "zh_TW": "線上",
+    "en_US": "Online"
+  },
+  "進程" : {
+    "zh_TW": "程序",
+    "en_US": "Process"
+  },
+  "刷新" : {
+    "zh_TW": "重新整理",
+    "en_US": "Refresh"
+  },
+  "攝像頭" : {
+    "zh_TW": "攝影機",
+    "en_US": "Camera"
+  },
+  "三次握手" : {
+    "zh_TW": "三向交握",
+    "en_US": "Three-way handshake"
+  },
+  "全局" : {
+    "zh_TW": "全域",
+    "en_US": "Global"
+  },
+  "循環" : {
+    "zh_TW": "迴圈",
+    "en_US": "Loop"
+  },
+  "變量" : {
+    "zh_TW": "變數",
+    "en_US": "Variable"
+  },
+  "窗口" : {
+    "zh_TW": "視窗",
+    "en_US": "Window"
+  },
+  "接口" : {
+    "zh_TW": "介面",
+    "en_US": "Interface"
+  },
+  "線程" : {
+    "zh_TW": "執行緒",
+    "en_US": "Thread"
+  },
+  "軟件" : {
+    "zh_TW": "軟體",
+    "en_US": "Software"
+  },  
+  "社交網站" : {
+    "zh_TW": "社群網站",
+    "en_US": "Social Network"
+  },
+  "U盤" : {
+    "zh_TW": "隨身碟",
+    "en_US": "USB"
+  },
+  "殺毒軟件" : {
+    "zh_TW": "防毒軟體",
+    "en_US": "Antivirus software"
+  },
+  "緩存" : {
+    "zh_TW": "快取",
+    "en_US": "Cache"
+  },
+  "文件夾" : {
+    "zh_TW": "資料夾",
+    "en_US": "Folder"
+  },
+  "操作系統" : {
+    "zh_TW": "作業系統",
+    "en_US": "Operating System"
+  },
+  "打印" : {
+    "zh_TW": "列印",
+    "en_US": "Print"
+  },
+  "服務器" : {
+    "zh_TW": "伺服器",
+    "en_US": "Server"
+  },
+  "光盤" : {
+    "zh_TW": "光碟",
+    "en_US": "CD"
+  },
+  "代源碼" : {
+    "zh_TW": "原始碼",
+    "en_US": "Source code"
+  },
+  "聯機" : {
+    "zh_TW": "連線",
+    "en_US": "Connection"
+  },
+  "脫機" : {
+    "zh_TW": "離線",
+    "en_US": "Disconnection"
+  },
+  "數據訪問" : {
+    "zh_TW": "資料存取",
+    "en_US": "Data access"
+  },
+  "回收站" : {
+    "zh_TW": "資源回收桶",
+    "en_US": ""
+  },
+  "控制面板" : {
+    "zh_TW": "控制台",
+    "en_US": ""
+  },
+  "水平" : {
+    "zh_TW": "水準",
+    "en_US": "Level"
+  },
+  "只讀" : {
+    "zh_TW": "唯讀",
+    "en_US": "Read-only"
+  },
+  "字節" : {
+    "zh_TW": "位元組",
+    "en_US": "Byte"
+  },
+  "鏈接" : {
+    "zh_TW": "超連結",
+    "en_US": "Hyperlink"
+  },
+  "視圖狀態" : {
+    "zh_TW": "檢視狀態",
+    "en_US": "ViewState"
+  },
+  "寄存器" : {
+    "zh_TW": "暫存器",
+    "en_US": "Register"
+  },
+  "數組" : {
+    "zh_TW": "陣列",
+    "en_US": "Array"
+  },
+  "布爾值" : {
+    "zh_TW": "布林值",
+    "en_US": "Boolean"
+  },
+  "調試" : {
+    "zh_TW": "除錯",
+    "en_US": "Debug"
+  },
+  "鼠標" : {
+    "zh_TW": "滑鼠",
+    "en_US": "Mouse"
+  },
+  "攝相機" : {
+    "zh_TW": "攝影機",
+    "en_US": "Camera"
+  },
+  "高級設定" : {
+    "zh_TW": "進階設定",
+    "en_US": ""
+  },
+  "死機" : {
+    "zh_TW": "當機",
+    "en_US": "Crash"
+  },
+  "接線板" : {
+    "zh_TW": "延長線",
+    "en_US": ""
+  },
+  "光驅" : {
+    "zh_TW": "光碟機",
+    "en_US": ""
+  },
+  "全角" : {
+    "zh_TW": "全形",
+    "en_US": ""
+  },
+  "半角" : {
+    "zh_TW": "半形",
+    "en_US": ""
+  },
+  "擴展名" : {
+    "zh_TW": "副檔名",
+    "en_US": ""
+  },
+  "文檔" : {
+    "zh_TW": "文件",
+    "en_US": "Document"
+  },
+  "導出" : {
+    "zh_TW": "匯出",
+    "en_US": "Export"
+  },
+  "表達式" : {
+    "zh_TW": "運算式",
+    "en_US": "Expression"
+  },
+  "字段" : {
+    "zh_TW": "欄位",
+    "en_US": "Field"
+  },
+  "固件" : {
+    "zh_TW": "韌體",
+    "en_US": "Firmware"
+  },
+  "硬件" : {
+    "zh_TW": "硬體",
+    "en_US": "Hardware"
+  },
+  "異常" : {
+    "zh_TW": "例外",
+    "en_US": "Exception"
+  },
+  "導入" : {
+    "zh_TW": "匯入",
+    "en_US": "Import"
+  },
+  "內聯" : {
+    "zh_TW": "行內",
+    "en_US": "Inline"
+  },
+  "操作數" : {
+    "zh_TW": "運算元",
+    "en_US": "Operand"
+  },
+  "運算數" : {
+    "zh_TW": "運算元",
+    "en_US": "Operand"
+  },
+  "操作符" : {
+    "zh_TW": "運算子",
+    "en_US": "Operator"
+  },
+  "運算符" : {
+    "zh_TW": "運算子",
+    "en_US": "Operator"
+  }
+}

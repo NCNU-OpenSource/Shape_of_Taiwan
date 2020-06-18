@@ -46,6 +46,11 @@ def getData() :
     return get_result_json(webText)
 
 
+@app.route('/feedBack', methods=['GET'])
+def feedBack():
+    return render_template('test.html')
+
+
 @app.route('/updateData', methods=['GET'])
 def updateData():
     if 'zh_CN' in request.args :
@@ -53,9 +58,9 @@ def updateData():
             return "Error: Form format error"
         else :
             key = request.args['zh_CN']
-            if 'zh_TW' in request.args and 'zh_US' in request.args :
+            if 'zh_TW' in request.args and 'en_US' in request.args :
                 zh_TW = request.args['zh_TW']
-                zh_US = request.args['zh_US']
+                en_US = request.args['en_US']
             else :
                 return "Error: Form format error"
     else :
@@ -65,7 +70,7 @@ def updateData():
         data = json.load(f)
         data[key] = {
             "zh_TW": zh_TW,
-            "zh_US": zh_US
+            "en_US": en_US
         }
     with open('./static/data2.json', 'w', encoding='utf8') as f :
         json.dump(data, f, ensure_ascii=False)

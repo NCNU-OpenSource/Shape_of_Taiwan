@@ -32,7 +32,7 @@ function init() {
     contentType: 'application/json',
     url: 'https://lost.moli.rocks/getData',
     dataType: 'json',
-    data: { "texts": document.body.innerText },
+    data: { "url": window.location.href },
     success: function (result) {
       console.log(result);
       translate(result);

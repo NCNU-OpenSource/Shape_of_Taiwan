@@ -23,7 +23,6 @@ function handle() {
 }
 
 function init() {
-<<<<<<< HEAD
   // let xml = new XMLHttpRequest();
   // xml.open('GET', 'https://lost.moli.rocks/getData');
   // xml.send();
@@ -31,7 +30,7 @@ function init() {
   $.ajax({
     type: 'GET',
     contentType: 'application/json',
-    url: 'http://127.0.0.1:5000/getData',
+    url: 'https://lost.moli.rocks/getData',
     dataType: 'json',
     data: { "texts": document.body.innerText },
     success: function (result) {
@@ -41,11 +40,5 @@ function init() {
       console.log(result);
     }
   });
-=======
-  let xml = new XMLHttpRequest();
-  xml.open('GET', 'http://127.0.0.1:5000/getData');
-  xml.send();
-  xml.onreadystatechange = handle;
->>>>>>> origin/b8
 }
 init();

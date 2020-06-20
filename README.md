@@ -5,7 +5,7 @@ It's a Chrome Extension, which can translate Chinese words into Taiwanese words.
 
 By analyzing web content, the extension will translate Chinese words into Taiwanese words, and highlight which words were translated, and show what the original words and english words are.
 
-Allow user feedback to us by right click, open the context menu, then open the beedback page.
+It allows users to open menu to add a feedback by a right-click.
 
 這是一個能夠翻譯並標示出大陸用語的 Chrome 瀏覽器擴充套件
 

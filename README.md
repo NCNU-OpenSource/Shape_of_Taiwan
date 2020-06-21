@@ -65,6 +65,8 @@ You can find it on Extension Store
   }
 }
 ```
+#### 套件執行流程
+![](https://i.imgur.com/KLeqUcn.png)
 
 ## About Backend
 The backend folder should not put in production

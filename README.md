@@ -77,10 +77,10 @@ It's here only for development
 - 使用 LSI 計算文章間(網頁 & 主題文章)的相似度，取 0.7 作為標準判斷文章主題
 - 資料預處理與訓練範例檔案
   - (branch: b8_topic_analysis)
-  - `data_prepare.py {訓練資料檔名}` 
+  - `backend/static/training_tool/data_prepare.py {訓練資料檔名}` 
     - 產出 cleaned_training_data.datset
     - 為去除無用符號、替換同義字、斷詞後 dataset
-  - `train_prepare.py `
+  - `backend/static/training_tool/train_prepare.py `
      - 產出用於擴充套建 .dic(dictionary) .lsi(lsi model) .mm(corpus) 的模型
 - [功能預期成果 & 模型調整相關說明共筆](https://hackmd.io/3EsxvvOpSJyz_1RjiN3qDA?both)
 ## 專案討論共筆

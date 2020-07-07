@@ -47,6 +47,7 @@ You can find it on Extension Store
 9. XMLHttpRequest
 10. Cross Origin Resource Sharing
 11. Jieba
+12. gensim
 
 #### 用詞對照資料範例(以 Json 格式儲存)
 ```json=
@@ -66,11 +67,21 @@ You can find it on Extension Store
 }
 ```
 #### 套件執行流程
-![](https://i.imgur.com/KLeqUcn.png)
+![](https://i.imgur.com/lEkj967.png)
 
 ## About Backend
 The backend folder should not put in production
 It's here only for development
 
+## 關於文章主題分析模型
+- 使用 LSI 計算文章間(網頁 & 主題文章)的相似度，取 0.7 作為標準判斷文章主題
+- 資料預處理與訓練範例檔案
+  - (branch: b8_topic_analysis)
+  - `data_prepare.py {訓練資料檔名}` 
+    - 產出 cleaned_training_data.datset
+    - 為去除無用符號、替換同義字、斷詞後 dataset
+  - `train_prepare.py `
+     - 產出用於擴充套建 .dic(dictionary) .lsi(lsi model) .mm(corpus) 的模型
+- [功能預期成果 & 模型調整相關說明共筆](https://hackmd.io/3EsxvvOpSJyz_1RjiN3qDA?both)
 ## 專案討論共筆
 [見此](https://hackmd.io/GXm0RCNWSRGyPMsWsT23TA)

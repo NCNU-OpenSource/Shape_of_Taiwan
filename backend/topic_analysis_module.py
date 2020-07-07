@@ -43,7 +43,7 @@ def computer_doc_sims(compare_doc):
     corpus = corpora.MmCorpus("./static/data/doc_computer.mm") # 將數據流的語料變為內容流的語料
     
     # 載入 lsi 模型
-    lsi = models.LsiModel.load('.\static\data\doc_computer.lsi')
+    lsi = models.LsiModel.load('./static/data/doc_computer.lsi')
     
     # lsi 模型去計算 compare_doc 與 corpus 中的相似度 
     vec_bow = dictionary.doc2bow(compare_doc.split()) # 把 compare_doc語料庫轉為一個一個詞包(bow = bag of word 0.0)
@@ -51,7 +51,7 @@ def computer_doc_sims(compare_doc):
     
     # 相似度計算
     index = similarities.MatrixSimilarity(lsi[corpus]) # Compute cosine similarity against a corpus of documents by storing the index matrix in memory.
-    index.save(".\static\data\doc_computer.index")
+    index.save("./static/data/doc_computer.index")
     sims = index[vec_lsi]
     sims = list(enumerate(sims)) # return [list(文本 id, 相似度)]
     

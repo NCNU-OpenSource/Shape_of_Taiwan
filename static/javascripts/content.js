@@ -1,7 +1,5 @@
 function translate(data) {
-  console.log(123456787654323456789);
   console.log(data);
-  
   
   let allKeys = Object.keys(data);
   let Search_Txt = document.body.innerText;

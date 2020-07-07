@@ -2,10 +2,7 @@ import flask
 import logging
 from flask import jsonify, request, render_template
 import json
-# jieba
-import jieba
-jieba.set_dictionary('./static/dict.txt.big')
-# import jieba_tw
+from topic_analysis_module import data_preprocess, computer_doc_sims
 from getWebText import getWebText
 
 app = flask.Flask(__name__)
@@ -23,13 +20,24 @@ def getData() :
         ch_dict_file = open('./static/data.json','r',encoding='utf8') # zh_CH.json
         ch_json_array = json.load(ch_dict_file)
 
-        # 切分收到內容
-        words = jieba.cut(webText, cut_all=False) # 不要把所有可能的結果都列出來
+        # 收到 web 資料後作預處理，return 清除符號、數字、同義字的 str
+        words_str = data_preprocess(webText)
+        words = words_str.split(' ')
+        
+        # 取得 doc 的 topic
+        if(computer_doc_sims(words_str) >= 0.7):
+            topic = 'computer'
+        else:
+            topic = "N"
 
         result_json = dict()
         for word in words: # 每個斷詞
-            try: # 比對 ch_json_array[ch_key]
-                result_json[word] = ch_json_array[word]
+            try: 
+                print(topic == ch_json_array[word]['topic'])
+                if(ch_json_array[word]['topic'] == 'N'):
+                    result_json[word] = ch_json_array[word]
+                elif(topic == ch_json_array[word]['topic']): # 先確定有無限定 topic
+                    result_json[word] = ch_json_array[word] # 比對 ch_json_array[ch_key]
             except KeyError:
                 continue
 
@@ -75,7 +83,6 @@ def updateData():
     with open('./static/data2.json', 'w', encoding='utf8') as f :
         json.dump(data, f, ensure_ascii=False)
     return "Success"
-
 
 if __name__ == "__main__":
     app.run()

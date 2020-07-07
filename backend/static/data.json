@@ -171,16 +171,10 @@
   },
   "軟件": {
     "zh_TW": "軟體",
-<<<<<<< HEAD
-    "en_US": "Software"
-  },
-  "社交網站": {
-=======
     "en_US": "Software",
     "topic": "N"
   },  
   "社交網站" : {
->>>>>>> 23138b4... doc topic analysis
     "zh_TW": "社群網站",
     "en_US": "Social Network",
     "topic": "N"
@@ -407,35 +401,7 @@
   },
   "運算符": {
     "zh_TW": "運算子",
-<<<<<<< HEAD
-    "en_US": "Operator"
-  },
-  "預處理器": {
-    "zh_TW": "前置處理器",
-    "en_US": "Preprocessor"
-  },
-  "隊列": {
-    "zh_TW": "佇列",
-    "en_US": "Queue"
-  },
-  "栈": {
-    "zh_TW": "堆疊",
-    "en_US": "Stack"
-  },
-  "多態": {
-    "zh_TW": "多型",
-    "en_US": "Polymorphism"
-  },
-  "遞歸": {
-    "zh_TW": "遞迴",
-    "en_US": "Recursion"
-  },
-  "無用信息": {
-    "zh_TW": "雜訊",
-    "en_US": ""
-=======
     "en_US": "Operator",
     "topic": "N"
->>>>>>> 23138b4... doc topic analysis
   }
 }

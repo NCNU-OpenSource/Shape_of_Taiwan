@@ -25,18 +25,18 @@ function init() {
   // xml.open('GET', 'https://lost.moli.rocks/getData');
   // xml.send();
   // xml.onreadystatechange = handle;
-  $.ajax({
-    type: 'GET',
-    contentType: 'application/json',
-    url: 'https://lost.moli.rocks/getData',
-    dataType: 'json',
-    data: { "url": window.location.href },
-    success: function (result) {
-      console.log(result);
-      translate(result);
-    }, error: function (result) {
-      console.log(result);
-    }
-  });
+  // $.ajax({
+  //   type: 'GET',
+  //   contentType: 'application/json',
+  //   url: 'https://lost.moli.rocks/getData',
+  //   dataType: 'json',
+  //   data: { "url": window.location.href },
+  //   success: function (result) {
+  //     console.log(result);
+  //     translate(result);
+  //   }, error: function (result) {
+  //     console.log(result);
+  //   }
+  // });
 }
 init();

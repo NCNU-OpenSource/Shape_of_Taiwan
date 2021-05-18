@@ -1,0 +1,407 @@
+let data = {
+  "內存": {
+    "zh_TW": "記憶體",
+    "en_US": "RAM",
+    "topic": "N"
+  },
+  "報文": {
+    "zh_TW": "封包",
+    "en_US": "Packet",
+    "topic": "N"
+  },
+  "端口": {
+    "zh_TW": "埠",
+    "en_US": "Port",
+    "topic": "N"
+  },
+  "帶寬": {
+    "zh_TW": "頻寬",
+    "en_US": "Bandwidth",
+    "topic": "N"
+  },
+  "默認": {
+    "zh_TW": "預設",
+    "en_US": "Default",
+    "topic": "N"
+  },
+  "用戶": {
+    "zh_TW": "使用者",
+    "en_US": "user",
+    "topic": "N"
+  },
+  "優化": {
+    "zh_TW": "最佳化",
+    "en_US": "Optimize",
+    "topic": "N"
+  },
+  "互聯網": {
+    "zh_TW": "網際網路",
+    "en_US": "Internet",
+    "topic": "N"
+  },
+  "網絡": {
+    "zh_TW": "網路",
+    "en_US": "Network",
+    "topic": "N"
+  },
+  "屏幕": {
+    "zh_TW": "螢幕",
+    "en_US": "Monitor",
+    "topic": "N"
+  },
+  "硬盤": {
+    "zh_TW": "硬碟",
+    "en_US": "Hard Drive Disk",
+    "topic": "N"
+  },
+  "程序": {
+    "zh_TW": "程式",
+    "en_US": "Program",
+    "topic": "N"
+  },
+  "程序員": {
+    "zh_TW": "工程師",
+    "en_US": "Programmer",
+    "topic": "N"
+  },
+  "代碼": {
+    "zh_TW": "程式碼",
+    "en_US": "Code",
+    "topic": "N"
+  },
+  "編程": {
+    "zh_TW": "寫程式",
+    "en_US": "Coding",
+    "topic": "N"
+  },
+  "數據庫": {
+    "zh_TW": "資料庫",
+    "en_US": "Database",
+    "topic": "N"
+  },
+  "卸載": {
+    "zh_TW": "移除",
+    "en_US": "Uninstall",
+    "topic": "N"
+  },
+  "短信": {
+    "zh_TW": "簡訊",
+    "en_US": "Message",
+    "topic": "N"
+  },
+  "計算機": {
+    "zh_TW": "電腦",
+    "en_US": "Computer",
+    "topic": "computer"
+  },
+  "掉線": {
+    "zh_TW": "斷線",
+    "en_US": "Drop",
+    "topic": "N"
+  },
+  "台式機": {
+    "zh_TW": "桌上型電腦",
+    "en_US": "Desktop PC",
+    "topic": "N"
+  },
+  "局域網": {
+    "zh_TW": "區域網路",
+    "en_US": "LAN",
+    "topic": "N"
+  },
+  "內核": {
+    "zh_TW": "核心",
+    "en_US": "Kernel",
+    "topic": "N"
+  },
+  "在線": {
+    "zh_TW": "線上",
+    "en_US": "Online",
+    "topic": "N"
+  },
+  "進程": {
+    "zh_TW": "程序",
+    "en_US": "Process",
+    "topic": "N"
+  },
+  "刷新": {
+    "zh_TW": "重新整理",
+    "en_US": "Refresh",
+    "topic": "N"
+  },
+  "攝像頭": {
+    "zh_TW": "攝影機",
+    "en_US": "Camera",
+    "topic": "N"
+  },
+  "三次握手": {
+    "zh_TW": "三向交握",
+    "en_US": "Three-way handshake",
+    "topic": "N"
+  },
+  "全局": {
+    "zh_TW": "全域",
+    "en_US": "Global",
+    "topic": "N"
+  },
+  "循環": {
+    "zh_TW": "迴圈",
+    "en_US": "Loop",
+    "topic": "N"
+  },
+  "變量": {
+    "zh_TW": "變數",
+    "en_US": "Variable",
+    "topic": "N"
+  },
+  "窗口": {
+    "zh_TW": "視窗",
+    "en_US": "Window",
+    "topic": "N"
+  },
+  "接口": {
+    "zh_TW": "介面",
+    "en_US": "Interface",
+    "topic": "N"
+  },
+  "線程": {
+    "zh_TW": "執行緒",
+    "en_US": "Thread",
+    "topic": "N"
+  },
+  "軟件": {
+    "zh_TW": "軟體",
+    "en_US": "Software",
+    "topic": "N"
+  },
+  "社交網站": {
+    "zh_TW": "社群網站",
+    "en_US": "Social Network",
+    "topic": "N"
+  },
+  "U盤": {
+    "zh_TW": "隨身碟",
+    "en_US": "USB",
+    "topic": "N"
+  },
+  "殺毒軟件": {
+    "zh_TW": "防毒軟體",
+    "en_US": "Antivirus software",
+    "topic": "N"
+  },
+  "緩存": {
+    "zh_TW": "快取",
+    "en_US": "Cache",
+    "topic": "N"
+  },
+  "文件夾": {
+    "zh_TW": "資料夾",
+    "en_US": "Folder",
+    "topic": "N"
+  },
+  "操作系統": {
+    "zh_TW": "作業系統",
+    "en_US": "Operating System",
+    "topic": "N"
+  },
+  "打印": {
+    "zh_TW": "列印",
+    "en_US": "Print",
+    "topic": "N"
+  },
+  "服務器": {
+    "zh_TW": "伺服器",
+    "en_US": "Server",
+    "topic": "N"
+  },
+  "光盤": {
+    "zh_TW": "光碟",
+    "en_US": "CD",
+    "topic": "N"
+  },
+  "代源碼": {
+    "zh_TW": "原始碼",
+    "en_US": "Source code",
+    "topic": "N"
+  },
+  "聯機": {
+    "zh_TW": "連線",
+    "en_US": "Connection",
+    "topic": "N"
+  },
+  "脫機": {
+    "zh_TW": "離線",
+    "en_US": "Disconnection",
+    "topic": "N"
+  },
+  "數據訪問": {
+    "zh_TW": "資料存取",
+    "en_US": "Data access",
+    "topic": "N"
+  },
+  "回收站": {
+    "zh_TW": "資源回收桶",
+    "en_US": "",
+    "topic": "N"
+  },
+  "控制面板": {
+    "zh_TW": "控制台",
+    "en_US": "",
+    "topic": "N"
+  },
+  "水平": {
+    "zh_TW": "水準",
+    "en_US": "Level",
+    "topic": "N"
+  },
+  "只讀": {
+    "zh_TW": "唯讀",
+    "en_US": "Read-only",
+    "topic": "N"
+  },
+  "字節": {
+    "zh_TW": "位元組",
+    "en_US": "Byte",
+    "topic": "N"
+  },
+  "鏈接": {
+    "zh_TW": "超連結",
+    "en_US": "Hyperlink",
+    "topic": "N"
+  },
+  "視圖狀態": {
+    "zh_TW": "檢視狀態",
+    "en_US": "ViewState",
+    "topic": "N"
+  },
+  "寄存器": {
+    "zh_TW": "暫存器",
+    "en_US": "Register",
+    "topic": "N"
+  },
+  "數組": {
+    "zh_TW": "陣列",
+    "en_US": "Array",
+    "topic": "N"
+  },
+  "布爾值": {
+    "zh_TW": "布林值",
+    "en_US": "Boolean",
+    "topic": "N"
+  },
+  "調試": {
+    "zh_TW": "除錯",
+    "en_US": "Debug",
+    "topic": "N"
+  },
+  "鼠標": {
+    "zh_TW": "滑鼠",
+    "en_US": "Mouse",
+    "topic": "N"
+  },
+  "攝相機": {
+    "zh_TW": "攝影機",
+    "en_US": "Camera",
+    "topic": "N"
+  },
+  "高級設定": {
+    "zh_TW": "進階設定",
+    "en_US": "",
+    "topic": "N"
+  },
+  "死機": {
+    "zh_TW": "當機",
+    "en_US": "Crash",
+    "topic": "N"
+  },
+  "接線板": {
+    "zh_TW": "延長線",
+    "en_US": "",
+    "topic": "N"
+  },
+  "光驅": {
+    "zh_TW": "光碟機",
+    "en_US": "",
+    "topic": "N"
+  },
+  "全角": {
+    "zh_TW": "全形",
+    "en_US": "",
+    "topic": "N"
+  },
+  "半角": {
+    "zh_TW": "半形",
+    "en_US": "",
+    "topic": "N"
+  },
+  "擴展名": {
+    "zh_TW": "副檔名",
+    "en_US": "",
+    "topic": "N"
+  },
+  "文檔": {
+    "zh_TW": "文件",
+    "en_US": "Document",
+    "topic": "N"
+  },
+  "導出": {
+    "zh_TW": "匯出",
+    "en_US": "Export",
+    "topic": "N"
+  },
+  "表達式": {
+    "zh_TW": "運算式",
+    "en_US": "Expression",
+    "topic": "N"
+  },
+  "字段": {
+    "zh_TW": "欄位",
+    "en_US": "Field",
+    "topic": "N"
+  },
+  "固件": {
+    "zh_TW": "韌體",
+    "en_US": "Firmware",
+    "topic": "N"
+  },
+  "硬件": {
+    "zh_TW": "硬體",
+    "en_US": "Hardware",
+    "topic": "N"
+  },
+  "異常": {
+    "zh_TW": "例外",
+    "en_US": "Exception",
+    "topic": "N"
+  },
+  "導入": {
+    "zh_TW": "匯入",
+    "en_US": "Import",
+    "topic": "N"
+  },
+  "內聯": {
+    "zh_TW": "行內",
+    "en_US": "Inline",
+    "topic": "N"
+  },
+  "操作數": {
+    "zh_TW": "運算元",
+    "en_US": "Operand",
+    "topic": "N"
+  },
+  "運算數": {
+    "zh_TW": "運算元",
+    "en_US": "Operand",
+    "topic": "N"
+  },
+  "操作符": {
+    "zh_TW": "運算子",
+    "en_US": "Operator",
+    "topic": "N"
+  },
+  "運算符": {
+    "zh_TW": "運算子",
+    "en_US": "Operator",
+    "topic": "N"
+  }
+}

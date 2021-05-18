@@ -1,6 +1,4 @@
 function translate(data) {
-  console.log(data);
-  
   let allKeys = Object.keys(data);
   let Search_Txt = document.body.innerText;
   allKeys.forEach(element => {
@@ -12,15 +10,14 @@ function translate(data) {
 }
 
 function handle() {
-  if(this.readyState == 4) {
-    console.log(this.response);
-    
+  if (this.readyState == 4) {
     let data = JSON.parse(this.response);
     translate(data);
   }
 }
 
 function init() {
+  translate(data);
   // let xml = new XMLHttpRequest();
   // xml.open('GET', 'https://lost.moli.rocks/getData');
   // xml.send();

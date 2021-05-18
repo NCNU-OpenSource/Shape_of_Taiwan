@@ -14,7 +14,7 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
       // 執行以下程式
       chrome.tabs.executeScript(null, { file: "/static/javascripts/jquery-2.1.1.min.js" }, () => chrome.runtime.lastError);
       chrome.tabs.executeScript(null, { file: "/static/javascripts/jquery.ba-replacetext.min.js" }, () => chrome.runtime.lastError);
-      // chrome.tabs.executeScript(null, { file: "data.js" }, () => chrome.runtime.lastError);
+      chrome.tabs.executeScript(null, { file: "/static/javascripts/data.js" }, () => chrome.runtime.lastError);
       chrome.tabs.executeScript(null, { file: "/static/javascripts/content.js" }, () => chrome.runtime.lastError);
     }
   }
